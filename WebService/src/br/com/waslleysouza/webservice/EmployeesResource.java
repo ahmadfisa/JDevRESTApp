@@ -13,12 +13,11 @@ import javax.ws.rs.Produces;
 @Produces(value = { "application/json", "application/xml" })
 public class EmployeesResource {
 
-    
+String Name;    
 
     @POST
     public String create() {
-        return "OK from home" ;
+        return "OK from home     " ;
         
     }
-
 }
